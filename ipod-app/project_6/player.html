@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="ipod.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="screen">
+      <div class="player-head">
+        <div>
+          <a href="songs.html"
+            ><i class="material-icons"> keyboard_backspace </i></a
+          >
+        </div>
+      </div>
+  
+      <div class="player-info-wrapper">
+        <img
+          class="player-album-art"
+          src="images/cave.jpeg"
+          alt="Currents Album Cover"
+        />
+      </div>
+
+      <p class="player-layer">
+        <p id="song-title" class="player-album-name">Let's Go Up</h4>
+        <p class="player-artist-name">The Vatican - Code</p>
+
+        <input id="vol-bar" class="volume-bar"  type="range" value="0" min="0" max="180" />
+
+        <div id="time-bar">
+         <div id="startTime"class="music-time">0:00</div>
+         <div id="endTime"class="music-time" > 3:00</div>
+        </div>
+
+
+
+
+<!--Swtich song Buttons-->
+        <div class="volume-level">
+           <div id="btns-container">
+            <i id="prev-btn" class="material-icons"> skip_previous </i>
+            <i id="play-btn" class="material-icons"> play_arrow </i>
+            <i id="next-btn" class="material-icons"> skip_next </i>
+            
+           </div>
+        
+       </div>
+
+
+
+       <!--volume level-->
+       <div class="volume-rocker">
+         <i class="material-icons" id="vol-dowm"> volume_down </i>
+         <div id="vl0"></div>
+         <div id="vl1"></div>
+         <div id="vl2"></div>
+         <div id="vl3"></div>
+         <div id="vl4"></div>
+         <div id="vl5"></div>
+       </div>
+
+
+       <!--Last part -->
+       <div class="volume-control">
+          <div class="vol-up">
+            <button id="volume-down">&mdash;</button>
+          </div >
+          <div class="vol-down">
+            <button id="volume-up">+</button>
+          </div>
+         
+     
+      </div>
+
+      </div>
+
+     
+
+      
+      
+      
+      
+
+      
+    </div>
+    <script src="ipod.js"></script>
+  </body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
