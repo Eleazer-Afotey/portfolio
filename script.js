@@ -16,5 +16,9 @@ function getMobileMenu() {
 
 x.addEventListener("click", getMobileMenu);
 
+let footer = document.getElementById("copyright");
+console.log(footer);
 let date = new Date();
-console.log(date.getDate());
+date = date.getFullYear();
+
+footer.textContent = "@" + date + ". All rights reserved";
