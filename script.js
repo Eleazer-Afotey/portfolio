@@ -21,4 +21,4 @@ console.log(footer);
 let date = new Date();
 date = date.getFullYear();
 
-footer.textContent = "@" + date + ". All rights reserved";
+footer.textContent = "@" + date + ". All Rights Reserved";
